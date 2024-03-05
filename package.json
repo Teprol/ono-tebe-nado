@@ -43,7 +43,8 @@
     "postcss-combine-media-query": "^1.0.1",
     "prettier": "^3.2.5",
     "sass": "^1.71.1",
-    "stylelint": "^16.2.1"
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard-scss": "^13.0.0"
   },
   "browserslist": [
     "last 2 versions",
