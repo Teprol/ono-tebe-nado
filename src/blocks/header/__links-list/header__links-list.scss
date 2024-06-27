@@ -1,0 +1,12 @@
+.header__links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 32px;
+  list-style-type: circle;
+
+  .header__links-list-item {
+    &:first-child {
+      list-style-type: none;
+    }
+  }
+}

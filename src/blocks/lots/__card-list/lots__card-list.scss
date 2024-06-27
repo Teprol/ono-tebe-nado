@@ -1,0 +1,24 @@
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 30px;
+
+  .lots__card-list-item:nth-of-type(1) .card {
+    background: url('./image/card-lot-01.jpg');
+    background-position: right center;
+    background-size: cover;
+  }
+
+  .lots__card-list-item:nth-of-type(2) .card {
+    background: url('./image/card-lot-02.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .lots__card-list-item:nth-of-type(3) .card {
+    background: url('./image/card-lot-03.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+}

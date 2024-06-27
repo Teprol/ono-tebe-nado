@@ -1,0 +1,10 @@
+.cover {
+  --font-color-main: #fff;
+
+  background: url('./image/cover.jpg') center center / cover no-repeat;
+  color: var(--font-color-main, #fff);
+  padding-bottom: 50px;
+  padding-top: 165px;
+  position: relative;
+  z-index: 0;
+}

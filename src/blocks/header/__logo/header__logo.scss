@@ -1,0 +1,4 @@
+.header__logo {
+  height: clamp(105px, calc(105 / 1100 * 100vw), 130px);
+  width: clamp(148px, calc(148 / 1100 * 100vw), 190px);
+}

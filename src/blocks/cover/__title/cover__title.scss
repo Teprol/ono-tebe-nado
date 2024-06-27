@@ -1,0 +1,11 @@
+.cover__title {
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 100px;
+  font-weight: 700;
+  gap: 20px;
+  letter-spacing: 0.3em;
+  line-height: 1.15;
+  margin-bottom: 135px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,9 @@
+.about__column {
+  &:nth-of-type(1) {
+    justify-self: center;
+  }
+
+  &:nth-of-type(2) {
+    padding-top: 101px;
+  }
+}

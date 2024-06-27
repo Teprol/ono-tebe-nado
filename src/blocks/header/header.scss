@@ -1,0 +1,16 @@
+.header {
+  --font-size: 1.125rem;
+
+  align-items: center;
+  display: grid;
+  flex-shrink: 0;
+  font-size: var(--font-size, 1.125rem);
+  grid-auto-rows: auto;
+  grid-template-columns: 1fr auto 1fr;
+  justify-content: space-between;
+  padding-bottom: 96px;
+  padding-top: 92px;
+
+  // gap: 36px;
+  row-gap: 36px;
+}

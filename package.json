@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Привет!'",
+    "bem": "css-to-bem-file-structure bem.scss",
     "check": "prettier --check './src/**/*.{html,scss,css,js}'",
     "format": "prettier --write './src/**/*.{html,scss,css,js}'",
     "lint": "stylelint './src/**/*.{scss,css}'",
@@ -30,6 +30,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.17",
     "browser-sync": "^3.0.2",
+    "css-to-bem-file-structure": "^0.0.5",
     "cssnano": "^6.0.5",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
@@ -44,7 +45,8 @@
     "prettier": "^3.2.5",
     "sass": "^1.71.1",
     "stylelint": "^16.2.1",
-    "stylelint-config-standard-scss": "^13.0.0"
+    "stylelint-config-standard-scss": "^13.0.0",
+    "stylelint-order": "^6.0.4"
   },
   "browserslist": [
     "last 2 versions",

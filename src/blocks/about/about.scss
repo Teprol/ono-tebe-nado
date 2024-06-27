@@ -1,0 +1,5 @@
+.about {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: minmax(auto, 430px) 1fr;
+}

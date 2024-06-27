@@ -56,9 +56,12 @@ function scss() {
     cssnano()
   ]
   return gulp
-    .src('src/**/*.scss')
+    .src('src/styles/style.scss')
     .pipe(plumber())
-    .pipe(sass())
+    // .pipe(sourcemap.init())
+    .pipe(sass({ outputStyle: 'compressed' })
+      // очень нужно для отлова ошибок чтобы сасс не вставал
+      .on('error', sass.logError))
     .pipe(concat('style.css'))
     .pipe(postcss(plugins))
     .pipe(gulp.dest('dist'))
@@ -70,14 +73,14 @@ function scss() {
  */
 function images() {
   return gulp
-    .src('images/**/*.{jpg,png,svg,gif,ico,webp,avif}')
+    .src('src/images/**/*.{jpg,png,svg,gif,ico,webp,avif}')
     .pipe(gulp.dest('dist/image'))
     .pipe(browserSync.reload({ stream: true }));
 }
 
 function fonts() {
   return gulp
-    .src('fonts/**/*.{woff,woff2}')
+    .src('src/fonts/**/*.{woff,woff2}')
     .pipe(gulp.dest('dist/fonts'))
     .pipe(browserSync.reload({ stream: true }));
 }

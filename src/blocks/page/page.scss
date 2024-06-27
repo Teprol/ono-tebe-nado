@@ -1,0 +1,7 @@
+.page {
+  color: var(--font-color-main, #000);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size, 1.25rem);
+  min-height: 100vh;
+}

@@ -1,0 +1,72 @@
+@import '../fonts/fonts';
+@import './global';
+@import './variables';
+
+// бщие блоки
+@import '../blocks/padding/padding';
+@import '../blocks/list/list';
+@import '../blocks/link/link';
+@import '../blocks/link/_active/link_active';
+@import '../blocks/overlay/overlay';
+@import '../blocks/logo/logo';
+@import '../blocks/logo/__image/logo__image';
+@import '../blocks/letter-spacing-extended/letter-spacing-extended';
+@import '../blocks/no-letter-spacing/no-letter-spacing';
+@import '../blocks/bet-button/bet-button';
+@import '../blocks/address/address';
+@import '../blocks/hover/hover';
+
+// боди
+@import '../blocks/page/page';
+@import '../blocks/page/__main/page__main';
+
+// шапка
+@import '../blocks/header/header';
+@import '../blocks/header/__menu/header__menu';
+@import '../blocks/header/__logo/header__logo';
+@import '../blocks/header/__link/header__link';
+@import '../blocks/header/__links-list/header__links-list';
+@import '../blocks/header/__address/header__address';
+
+// контент
+@import '../blocks/main/main';
+
+// входная секция
+@import '../blocks/cover/cover';
+@import '../blocks/cover/__title/cover__title';
+@import '../blocks/aligned-text/aligned-text';
+@import '../blocks/aligned-text/_center/aligned-text_center';
+@import '../blocks/aligned-text/_right/aligned-text_right';
+@import '../blocks/cover/__description/cover__description';
+@import '../blocks/cover/__description-text/cover__description-text';
+
+// секция карточек
+@import '../blocks/lots/__heading/lots__heading';
+@import '../blocks/lots/__card-list/lots__card-list';
+@import '../blocks/lots/__card-list-item/lots__card-list-item';
+@import '../blocks/lots/__look-more-link/lots__look-more-link';
+
+// ссылка на карточку
+@import '../blocks/card-link/card-link';
+
+// карточка
+@import '../blocks/card/card';
+@import '../blocks/card/__title/card__title';
+@import '../blocks/card/__text/card__text';
+
+// об аукционе
+@import '../blocks/about/about';
+@import '../blocks/about/__column/about__column';
+@import '../blocks/about/__logo/about__logo';
+@import '../blocks/about/__logo-image/about__logo-image';
+@import '../blocks/about/__title/about__title';
+@import '../blocks/about/__text/about__text';
+
+// подвал
+@import '../blocks/footer/footer';
+@import '../blocks/footer/__address/footer__address';
+@import '../blocks/footer/__menu-list/footer__menu-list';
+@import '../blocks/footer/__social-list/footer__social-list';
+@import '../blocks/footer/__social-list-item/footer__social-list-item';
+@import '../blocks/footer/__social-link/footer__social-link';
+@import '../blocks/footer/__social-icon/footer__social-icon';
