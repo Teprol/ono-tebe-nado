@@ -1,5 +1,6 @@
 .about {
-  display: grid;
+  display: flex;
   gap: 25px;
-  grid-template-columns: minmax(auto, 430px) 1fr;
+  flex-wrap: wrap;
+  justify-content: center;
 }
