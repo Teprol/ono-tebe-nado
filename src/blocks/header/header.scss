@@ -2,7 +2,8 @@
   --font-size: 1.125rem;
 
   align-items: center;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   flex-shrink: 0;
   font-size: var(--font-size, 1.125rem);
   grid-auto-rows: auto;
@@ -12,5 +13,5 @@
   padding-top: 92px;
 
   // gap: 36px;
-  row-gap: 36px;
+  row-gap: 12px;
 }
