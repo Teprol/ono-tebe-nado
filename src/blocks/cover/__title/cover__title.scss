@@ -1,7 +1,9 @@
 .cover__title {
   display: flex;
   flex-flow: column wrap;
-  font-size: 100px;
+
+  // font-size: 100px;
+  font-size: clamp(3rem, 10vw, 100px);
   font-weight: 700;
   gap: 20px;
   letter-spacing: 0.3em;

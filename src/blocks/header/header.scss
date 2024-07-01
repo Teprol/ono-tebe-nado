@@ -2,8 +2,9 @@
   --font-size: 1.125rem;
 
   align-items: center;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+
+  // flex-wrap: wrap;
   flex-shrink: 0;
   font-size: var(--font-size, 1.125rem);
   grid-auto-rows: auto;
